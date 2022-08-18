@@ -28,7 +28,7 @@ li{
 }
 
 header{
-  width:100%;
+  width:100vh;
   height:300px;
   position: relative;
   text-align: center;
