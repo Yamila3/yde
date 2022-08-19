@@ -176,7 +176,10 @@ h1{
     right: 40px;
   }
 
-
+  h1{
+    position: relative;
+    bottom: 40%;
+    }
 
   header{
     height:300px;
@@ -204,16 +207,15 @@ h1{
   }
 
   #achtergrond_tekst_header{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      position: relative;
+      left:45%;
+      bottom: 70%;
       background-color:#4d6e55;
       border-style:solid;
       border-width: thin;
       border-color:white;
       width: 160px;
-      height:80px;
+      height:60px;
       border-radius: 5px;
       padding: 5px;
   }
@@ -226,14 +228,14 @@ h1{
 
   #kolom_1 {
       width: 16.66%;
-      height: 120vh;
+      height: 140vh;
       text-align: right;
   }
 
   #kolom_2 {
       width: 66.66%;
       color: #4d6e55;
-      height: 110vh;
+      height: 130vh;
       padding:20px;
 
   }
