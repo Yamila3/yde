@@ -9,7 +9,7 @@ body {
 
 #kolom_1{
   width: inherit;
-  height: 50vh;
+  height: 60vh;
   background-color: #4d6e55;
   align-self: center;
   color: white;
@@ -22,7 +22,7 @@ body {
 #kolom_2{
   width: inherit;
   color: #4d6e55;
-  height: 180vh;
+  height: 200vh;
     align-self: center;
 }
 
@@ -92,7 +92,8 @@ ul{
   }
 
 li{
-    margin:0 20px 15px 0;
+    margin:0 20px 20px 0;
+    padding-top: 10px;
     padding-left: 10px;
   }
 header{
