@@ -9,7 +9,7 @@ body {
 
 #kolom_1{
   width: inherit;
-  height: 90vh;
+  height: 80vh;
   background-color: #4d6e55;
   align-self: center;
   color: white;
@@ -22,7 +22,7 @@ body {
 #kolom_2{
   width: inherit;
   color: #4d6e55;
-  height: 330vh;
+  height: 270vh;
     align-self: center;
 }
 
@@ -120,7 +120,7 @@ header{
 h1{
   position: relative;
   bottom: 100%;
-  text-align: center;
+  right: 10%;
   }
 
   footer{
