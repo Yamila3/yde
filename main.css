@@ -1,132 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
+#kolom_1{
+  width: inherit;
+  height: 50vh;
+  background-color: #4d6e55;
+  align-self: center;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color:#304234;
 
+}
+
+#kolom_2{
+  width: inherit;
+  color: #4d6e55;
+  height: 180vh;
+    align-self: center;
+}
+
+#row {
+  display: flex;
+  flex-direction:column;
+  width:100%;
+}
 
 h1,h2,h3,h4{
   text-align: center;
 }
 
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+
+}
+h3 {
+  font-size: 25px;
+}
 h4{
   font-size: 20px;
 }
-
-h3,h4{
-  position: relative;
-  right: 40px;
-}
-
-ul{
-  text-align: left;
-}
-
-li{
-  margin:0 0 10px 0;
-}
-
-header{
-  width:100vh%;
-  height:300px;
-  position: relative;
-  text-align: center;
-  color: white;
-
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-footer{
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 4vh;
-  background-color: #4d6e55;
-  text-align: center;
-  color: white;
-  padding-top:30px;
-  padding-left:15px;
-  padding-right:45px;
-  padding-bottom:30px;
-  border-style: solid;
-  border-width: thin;
-  border-color:#304234;
-}
-
-#header_img{
-  width:100%;
-  height:300px;
-}
-
-#achtergrond_tekst_header{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color:#4d6e55;
-    border-style:solid;
-    border-width: thin;
-    border-color:white;
-    width: 160px;
-    height:80px;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-#row {
-    display: flex;
-    flex-direction: row;
-}
-
-#kolom_1 {
-    width: 16.66%;
-    height: 110vh;
-    background-color: #4d6e55;
-    text-align: right;
-    color: white;
-    padding:10px;
-    border-style: solid;
-    border-width: thin;
-    border-color:#304234;
-}
-
-#kolom_2 {
-    width: 66.66%;
-    color: #4d6e55;
-    height: 100vh;
-    padding:20px;
-
+p{
+  font-size: 18px;
+  padding: 10px;
 }
 
 #image_1{
-    height: 30%;
-    width: 30%;
-    float: right;
-    border-radius: 5px;
-    border-color: #4d6e55;
-    border-style: solid;
-    border-width: thin;
-    margin-left: 20px;
-    position: relative;
-    top: 20px;
-}
-
-
-
-#attractie_2{
-  background-color:#4d6e55;
+  height: 30%;
+  width: 30%;
+  float: right;
   border-radius: 5px;
-  height: 300px;
-  width:900px;
-  margin-left: 160px;
-  color: white;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right:20px;
+  border-color: #4d6e55;
   border-style: solid;
   border-width: thin;
-  border-color:#304234;
+  margin-left: 20px;
+  position: relative;
+  top: 20px;
+  display: block;
 }
 
 #image_2{
@@ -139,51 +78,188 @@ footer{
   border-width: thin;
 }
 
-@media only screen and (max-width: 600px){
-  .body {
-    display: flex;
-    justify-content: space-between;
-  }
-  #kolom_1{
-    width: 100%;
-    height: 350px;
-    align-self: center;
-  }
-  #kolom_2{
-    width: 100%;
-    height:1000px;
-  }
-  #row {
-    display: flex;
-    flex-direction:column;
+#header_img{
+  width:100%;
+  height:150px;
+  align-self: center;
+  border-color: #4d6e55;
+  border-right-style: solid;
+  border-right-width: thin;
   }
 
-  h1 {
-    font-size: 45px;
+ul{
+    text-align: left;
   }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  p{
-    font-size: 18px;}
 
-  #header_img{
-    width:600px;
-    height:150px;
-    align-self: center;
-    }
+li{
+    margin:0 20px 15px 0;
+    padding-left: 10px;
+  }
+header{
+  color: white;
+  width:100vh;
+  height:150px;
+  color: white;
+  }
+
+  #achtergrond_tekst_header{
+      position: relative;
+      bottom: 80%;
+      left: 35%;
+      background-color:#4d6e55;
+      border-style:solid;
+      border-width: thin;
+      border-color:white;
+      width: 160px;
+      height:40px;
+      border-radius: 5px;
+      padding: 5px;
+  }
+
+h1{
+  position: relative;
+  bottom: 100%;
+  text-align: center;
+  }
+
+  footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 4vh;
+    background-color: #4d6e55;
+    text-align: center;
+    color: white;
+    padding-top:30px;
+    padding-left:15px;
+    padding-right:45px;
+    padding-bottom:30px;
+    border-style: solid;
+    border-width: thin;
+    border-color:#304234;
+  }
+
+  #attractie_2{
+    width: inherit;
+    height: 40vh;
+    background-color:#4d6e55;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color:#304234;
+    margin-left: 0px;
+
+  }
+
+  /*--------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 600px){
+  body {
+    display: flex;
+  }
+  h1,h2,h3,h4{
+    text-align: center;
+  }
+
+  h4{
+    font-size: 20px;
+  }
+
+  h3,h4{
+    position: relative;
+    right: 40px;
+  }
+
+
 
   header{
-      width:100vh%;
-      height:150px;
-      color: white;
-    }
-  title{
-    position: relative;
-    bottom:50px !important;
+    height:300px;
+    width:100%
+  }
+  footer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 4vh;
+    background-color: #4d6e55;
+    text-align: center;
+    color: white;
+    padding-top:30px;
+    padding-left:15px;
+    padding-right:45px;
+    padding-bottom:30px;
+    border-style: solid;
+    border-width: thin;
+    border-color:#304234;
+  }
 
-    }
-}
+  #header_img{
+    height:300px;
+  }
+
+  #achtergrond_tekst_header{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color:#4d6e55;
+      border-style:solid;
+      border-width: thin;
+      border-color:white;
+      width: 160px;
+      height:80px;
+      border-radius: 5px;
+      padding: 5px;
+  }
+
+  #row {
+      display: flex;
+      flex-direction: row;
+
+  }
+
+  #kolom_1 {
+      width: 16.66%;
+      height: 120vh;
+      text-align: right;
+  }
+
+  #kolom_2 {
+      width: 66.66%;
+      color: #4d6e55;
+      height: 110vh;
+      padding:20px;
+
+  }
+
+  #attractie_2{
+    background-color:#4d6e55;
+    border-radius: 5px;
+    height: 300px;
+    width:900px;
+    margin-left: 160px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-style: solid;
+    border-width: thin;
+    border-color:#304234;
+
+  }
+
+  #image_2{
+    height: 50%;
+    width:30%;
+    float: right;
+    border-radius: 5px;
+    border-color: #4d6e55;
+    border-style: solid;
+    border-width: thin;
+  }
+  }
