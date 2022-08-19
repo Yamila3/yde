@@ -37,10 +37,9 @@ h1,h2,h3,h4{
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   position:relative;
-  right:5%;
-  bottom:100%
+  bottom: 30px;
 }
 h2 {
   font-size: 35px;
@@ -109,7 +108,7 @@ header{
   #achtergrond_tekst_header{
       position: relative;
       bottom: 80%;
-      left: 25%;
+      left: 35%;
       background-color:#4d6e55;
       border-style:solid;
       border-width: thin;
@@ -157,9 +156,7 @@ header{
   /*--------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 600px){
-  body {
-    display: flex;
-  }
+
   h1,h2,h3,h4{
     text-align: center;
   }
