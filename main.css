@@ -60,13 +60,12 @@ p{
   border-color: #4d6e55;
   border-style: solid;
   border-width: thin;
-  display: block;
+
   float: right;
   height: 30%;
-  margin-left: 20px;
-  position: relative;
-  top: 20px;
   width: 30%;
+  margin-left: 20px;
+
 }
 
 #image_2{
