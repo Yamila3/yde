@@ -11,20 +11,18 @@ body {
   width: inherit;
   height: 75vh;
   background-color: #4d6e55;
-  align-self: center;
   color: white;
   border-style: solid;
   border-width: thin;
   border-color:#304234;
-
 }
 
 #kolom_2{
   width: inherit;
   color: #4d6e55;
   height: 250vh;
-  align-self: center;
-  padding:10px;
+  padding: 10px;
+
 }
 
 #row {
@@ -47,7 +45,7 @@ h2 {
   font-size: 35px;
 }
 h3 {
-  font-size: 25px;
+  font-size: 26px;
 }
 h4{
   font-size: 20px;
@@ -115,8 +113,9 @@ header{
   height:7vh;
   padding: 5px;
   position: relative;
-  left: 35%;
-  width: 30vh;
+  left: 50%;
+  right: 50%;
+  width: 10vh;
 }
 
 footer{
