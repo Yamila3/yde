@@ -20,7 +20,7 @@ body {
 #kolom_2{
   width: inherit;
   color: #4d6e55;
-  height: 270vh;
+  height: 285vh;
   padding: 10px;
 
 }
@@ -112,7 +112,7 @@ header{
   width: 14vh;
   padding: 5px;
   position: relative;
-  left: 30%;
+  left: 35%;
   bottom:80%;
 }
 
